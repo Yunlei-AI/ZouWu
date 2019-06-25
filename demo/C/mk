@@ -1,0 +1,1 @@
+g++ -O3 -o demo -I../../include -L../../lib/rpi/ -Wl,-rpath ../../lib/rpi/ demo_online.cpp -lZouwu -lasound
