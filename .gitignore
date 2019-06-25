@@ -1,7 +1,9 @@
 
 *.pyc
 *.wav
+*.txt
 ZouwuReg.h
 
+resources/testdata/data/
 train/
 /train/
