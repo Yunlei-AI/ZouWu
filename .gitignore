@@ -3,7 +3,7 @@
 *.wav
 *.txt
 ZouwuReg.h
-
+data/
 resources/testdata/data/
 train/
 /train/
