@@ -2,6 +2,7 @@
 *.pyc
 *.wav
 *.txt
+.DS_Store
 ZouwuReg.h
 data/
 resources/testdata/data/

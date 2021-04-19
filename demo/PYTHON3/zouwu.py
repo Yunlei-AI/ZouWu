@@ -34,12 +34,6 @@ class ZouWu(object):
         nSample = ctypes.c_int(datalen)
         self.zouwulib.ZouwuRegModel(self.zouwu_pInst, (ctypes.c_short * len(data))(*data), nSample, mdlid)    
             
-    def SaveModel(self,save_path):
-
-        ret = self.zouwulib.ZouwuSaveModel(self.zouwu_pInst, save_path.encode())
-        if ret != 0:
-            print("save model erro!")
-        
     def LoadModel(self,model_path):
     
         if not os.path.exists(model_path):

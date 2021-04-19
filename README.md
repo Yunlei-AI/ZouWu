@@ -13,11 +13,11 @@ hotword and wake word detection toolkit ,work on raspberry、centos7 and other p
 
 # Chinese
 
-驺吾是一个非常高效的唤醒词工具，并不比snowboy差，目前只开放树莓派平台的库，但对于Android、IOS、CentOS等其他平台也都可做。
+驺吾是一个非常高效的唤醒词工具，目前只开放树莓派平台的库，但对于Android、IOS、CentOS等其他平台也都可做。
 
 # 使用
 1.选择要使用的唤醒词，如小蕾小蕾、八戒八戒等
-2.使用录音设备录制3个唤醒词片段
+2.使用录音设备录制3个唤醒词片段,采样率16kHz,位宽16bit
 3.将三个片段发到邮箱（yunlei.tech@gmail.com），我将会生成模型并发回去。
 
 
