@@ -19,9 +19,11 @@ hotword and wake word detection toolkit ,work on raspberry(3 or 4)、centos7 and
 ## 1.选择要使用的唤醒词，如小蕾小蕾、八戒八戒等
 ## 2.使用录音设备录制3个唤醒词片段,采样率16kHz,位宽16bit，如"悟空悟空1,wav ,悟空悟空2.wav ,悟空悟空3.wav" 
 ## 3.将三个片段发到邮箱（yunlei.tech@gmail.com or 234413234@163.com），我将会生成模型并发回去,gmail邮箱因为国内qiang的原因可能会不能即使收到，国内的朋友请发163邮箱。
+## 4.将收到的模型放到resources或其他位置，并在demo程序里指定即可。
+## 5.运行demo程序前，先把python的依赖包安装了。
 
 
 # 说明
 
 ## 1.目前模型的时效性为一年，一年后需要再次生成模型
-## 2.需要源码或合作，请发邮件至（yunlei.tech@gmail.com or 234413234@163.com）邮箱。
+## 2.需要源码商业合作，请发邮件至（yunlei.tech@gmail.com or 234413234@163.com）邮箱，进行商业洽谈。
